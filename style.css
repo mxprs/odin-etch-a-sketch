@@ -9,6 +9,13 @@
 .grid-item {
     border-style: solid;
     border-color: black;
-    background-color: black;
     margin: 5px;
+}
+
+.active-pixel {
+    background-color: yellow;
+}
+
+.inactive-pixel {
+    background-color: black;
 }
