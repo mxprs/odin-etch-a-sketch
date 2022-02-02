@@ -1,6 +1,12 @@
+body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
 
 #container {
     display: grid;
+    
     width: 600px;
     height: 600px;
     border-style: solid;
