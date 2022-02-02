@@ -1,19 +1,30 @@
 
 #container {
     display: grid;
-    margin: 0 30%;
+    width: 600px;
+    height: 600px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
-.grid-item {
-    border-style: solid;
-    border-color: black;
-    margin: 5px;
+.buttons {
+    margin: 50px 0;
+}
+
+.buttons > button {
+    border-style: none;
+    padding: 5px 20px;
+    background-color: #30011E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
 .active-pixel {
-    background-color: yellow;
+    background-color: #30011E;
 }
 
 .inactive-pixel {
-    background-color: black;
+    background-color: #D7FCD4;
 }
