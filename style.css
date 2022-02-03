@@ -6,7 +6,6 @@ body {
 
 #container {
     display: grid;
-    
     width: 600px;
     height: 600px;
     border-style: solid;
@@ -15,7 +14,7 @@ body {
 }
 
 .buttons {
-    margin: 50px 0;
+    margin: 20px 0;
 }
 
 .buttons > button {
@@ -33,4 +32,9 @@ body {
 
 .inactive-pixel {
     background-color: #D7FCD4;
+}
+
+.info-size-grid {
+    color: #30011E;
+    font-weight: bold;
 }
